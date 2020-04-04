@@ -3,14 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Login Html</title>
+    <title>Home | Fastery</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <!-- ctrl + k v para visualizar en VSC -->
+<!-- https://youtu.be/jbSDXC-xjEI -->
 <body>
+
 <div class="login-box">
-    <img src="img/bg.jpeg" alt="logo joffre">
+    <img class="icon" src="img/perfil.jpg" alt="logo joffre">
+    <h1>Inicia Sesion</h1>
+    <form>
+        <!-- USER NAME -->
+        <label for="username">Usuario</label>
+        <input type="text" placeholder="Juan2930">
+        <!-- PASSWORD -->
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="*********">
+        <input type="submit" value="Iniciar Sesion">
+        <a href="./reset-password.html">¿Olvidaste tu contraseña?</a><br>
+        <a href="./register.html">Crear Nueva Cuenta</a>
+    </form>
+
 </div>
 
 </body>

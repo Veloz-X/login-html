@@ -10,8 +10,8 @@ body{
 }
 .login-box{
     /* Tamaño del formulario */
-    width: 320px;
-    height: 420px;
+    width: 335px;
+    height: 275px;
     /* color de formulario */
     background-color: black;
     /* Texto de adentro del formulario */
@@ -25,7 +25,7 @@ body{
     box-sizing: border-box;
     /* Hacia arriba, hacia los lados */
     padding: 70px 30px;
-    border-radius: 5%;
+    border-radius: 15%;
 }
 .login-box .icon{
     /* Tamaño del icono */
@@ -50,11 +50,11 @@ body{
     display: block;
 }
 
-.login-box label{
-    margin: 0;
-    padding: 0;
+.login-box label[for="text"]{
+    margin: 0%;
+    padding: 5px;
     font-weight: bold;
-    display: block;
+
 }
 
 .login-box input{
@@ -62,7 +62,7 @@ body{
     margin-bottom: 20px;
 }
 
-.login-box input[type="text"],
+.login-box input[type="email"],
 .login-box input[type="password"]{
     border: none;
     border-bottom: 1px solid white;
